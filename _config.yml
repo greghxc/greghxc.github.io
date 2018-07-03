@@ -1,0 +1,33 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          HACKSY.IO
+paginate:       5
+baseurl:        ""
+url:            "https://chesterhow.github.io/tale"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Greg Mertzlufft
+  url:          http://hacksy.org
+  email:        greg@hacksy.org
+
+# Custom vars
+version:        0.0.1
+github:
+  repo:         https://github.com/greghxc/tale
+
+# Gems
+gems:
+  - jekyll-paginate
+
+excerpt_separator: <!--more-->

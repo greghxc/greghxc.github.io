@@ -1,0 +1,17 @@
+<div class="radio">
+  <label>
+    <input type="radio" class="quote" name="vehicleRadios" id="optionsRadios{{itemNum}}" value="{{vehInfo.quoteName}}" {{checked}}>
+    <b>{{vehInfo.quoteName}}</b><br>
+    {{{vehInfo.quotePass}}}<br>
+    <!-- this div must wrap only the details of the cost -->
+    <div class="quote-details">
+      <B>Base Fare:</B> ${{{vehInfo.baseCharge}}}<br>
+      Fuel Surcharge: ${{{vehInfo.fuelCharge}}}<br>
+      <span style='text-decoration: underline;' class='show-fee-info' data-toggle='tooltip' title='It is not necessary to tip your chauffeur. A 20% service charge is added to all reservations to fairly compensate all team members who contribute to your trip, including your chauffeur, reservationists, detailers, etc. If you would like to tip your chauffeur at the conclusion of service, this is at your discretion, but it is not expected.' data-placement='bottom' data-delay='{"show":"100", "hide":"500"}'>Service Charge</span>: ${{{vehInfo.serviceCharge}}}<br>
+    </div>
+    Total: ${{{vehInfo.totalCost}}}
+  </label>
+  <!-- this hidden field is used to store just the cost, do not remove -->
+  <input type="hidden" name="totalCost" value="{{{vehInfo.totalCost}}}">
+  <!-- end hidden field -->
+</div>
