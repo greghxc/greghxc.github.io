@@ -5,7 +5,7 @@ permalink:      /:year-:month-:day/:title
 title:          HACKSY.IO
 paginate:       5
 baseurl:        ""
-url:            "https://chesterhow.github.io/tale"
+url:            "https://greghxc.github.io"
 
 # Assets
 sass:
@@ -18,13 +18,13 @@ markdown:       kramdown
 # About
 author:
   name:         Greg Mertzlufft
-  url:          http://hacksy.org
-  email:        greg@hacksy.org
+  url:          http://hacksy.io
+  email:        greg@hacksy.io
 
 # Custom vars
 version:        0.0.1
 github:
-  repo:         https://github.com/greghxc/tale
+  repo:         https://github.com/greghxc/greghxc.github.io
 
 # Gems
 gems:
